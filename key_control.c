@@ -24,11 +24,11 @@ static	float	ft_limit_pi(float angle)
 static void	ft_change_color(int key, t_fdf *data)
 {
 	if (key == 5)
-		data->color = 0x00CC00;
+		data->color = 0x00CC00;//G
 	else if (key == 9)
-		data->color = 0x660000;
+		data->color = 0xB50000;//V
 	else if (key == 11)
-		data->color = 0x0000FF;
+		data->color = 0x0000F9;//B
 }
 
 static void	ft_translate(int key, t_fdf *data)
