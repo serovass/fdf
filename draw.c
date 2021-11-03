@@ -50,7 +50,7 @@ static void	ft_get_backgrund(t_fdf *data)
 			my_mlx_pixel_put(data, x, y, (int)color);
 			x++;
 		}
-		color += 0.05;
+		color += 0.1;
 		y++;
 	}
 }
